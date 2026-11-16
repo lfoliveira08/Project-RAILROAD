@@ -1,0 +1,62 @@
+# ───────── Secrets / local config (NEVER commit) ─────────
+config.h
+secrets.h
+*.local
+.env
+credentials*
+
+# ───────── macOS / Windows cruft ─────────
+.DS_Store
+__MACOSX/
+Thumbs.db
+desktop.ini
+*~
+
+# ───────── Offensive tooling — NEVER publish (concept-only repo) ─────────
+railroad_dashboard/
+railroad_dashboard.zip
+**/attacks/
+**/server.py
+**/run.sh
+
+# ───────── Sensitive / do-not-publish (held for review) ─────────
+# Firmware with REAL hardcoded WiFi credentials — sanitize before ever publishing
+Openplc codes/
+OpenPLC LnkiWifi/
+# Faculty/private document versions — contain attack code, WiFi passwords, un-redacted material
+Documentation CNF and DrOkan/
+Documents/RAILROAD_Attack_Playbook.docx
+# Un-redacted reports containing Appendix A attack scripts — publish *_PUBLIC.docx instead
+**/Project_RAILROAD_Final_Report_1*.docx
+# Oversized source deck (526 MB w/ embedded video) — publish UIW_RAILROAD_Slides.pdf instead
+**/UIW_Capstone_change*.pptx
+# Third-party / unrelated / other-person documents
+**/PLC Manual.pdf
+**/*Camp Staff Guidelines*
+**/*Internship Final Report*
+
+# ───────── Archives / duplicates ─────────
+*.zip
+*.tar
+*.tar.gz
+
+# ───────── OpenPLC / build artifacts ─────────
+build/
+*.o
+*.obj
+*.out
+*.hex
+*.elf
+
+# ───────── Python ─────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ───────── Editor / IDE ─────────
+.vscode/
+.idea/
+*.swp
