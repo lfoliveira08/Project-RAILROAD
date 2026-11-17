@@ -64,6 +64,21 @@ Level 0    Field Zone             → ESP32 slaves: track switches, power relay,
 
 ---
 
+## 📸 Testbed Photos
+
+| | |
+|---|---|
+| ![Testbed #1 — LEGO "Bricks in a Loop"](images/testbed1-lego-overview.jpg) | ![Testbed #2 — Bachmann HO layout with MicroLogix PLCs](images/testbed2-bachmann-ho-plc.jpg) |
+| **Testbed #1** — custom LEGO "Bricks in a Loop" layout with the ESP32 field devices | **Testbed #2** — Bachmann EZ-Track HO layout wired to the Allen-Bradley MicroLogix 1100 PLCs on DIN-rail power |
+| ![Radar node](images/radar-ultrasonic-sensor.jpg) | ![Crossing gate](images/crossing-gate.jpg) |
+| **Radar node** — ultrasonic proximity sensor on a servo mount with an LCD status display | **Crossing gate** — servo-operated gate arm with track sensors |
+| ![SwitchTrack node](images/switchtrack-servo-lcd.jpg) | |
+| **SwitchTrack node** — servo actuator for the track switch with an LCD showing switch and Modbus status | |
+
+Handwritten notes and lab addresses visible in the original photos were blurred or removed before publishing.
+
+---
+
 ## 🎯 The 10 Adversarial Scenarios
 
 | # | Scenario | Effect |
@@ -103,6 +118,7 @@ Level 0    Field Zone             → ESP32 slaves: track switches, power relay,
 | Path | Contents |
 |------|----------|
 | `README.md` · `SECURITY.md` · `LICENSE` | Project overview, responsible-use policy, license |
+| `images/` | Photos of the physical testbeds and field devices (sensitive notes removed) |
 | `firmware/` | ESP32 Modbus TCP slave sketches — crossing gate, power track, switch track, radar (**WiFi credentials replaced with placeholders**) |
 | `plc/` | OpenPLC ladder-logic project (LadderDiagramLegoControl) + RSLogix relay-logic backup |
 | `Documents/Project_RAILROAD_Final_Report_PUBLIC.docx` | Full IEEE final report — attack-script appendix redacted |
