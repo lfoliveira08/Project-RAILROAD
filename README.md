@@ -68,14 +68,16 @@ Level 0    Field Zone             → ESP32 slaves: track switches, power relay,
 
 | | |
 |---|---|
-| ![Testbed #1 — LEGO "Bricks in a Loop"](images/testbed1-lego-overview.jpg) | ![Testbed #2 — Bachmann HO layout with MicroLogix PLCs](images/testbed2-bachmann-ho-plc.jpg) |
-| **Testbed #1** — custom LEGO "Bricks in a Loop" layout with the ESP32 field devices | **Testbed #2** — Bachmann EZ-Track HO layout wired to the Allen-Bradley MicroLogix 1100 PLCs on DIN-rail power |
-| ![Radar node](images/radar-ultrasonic-sensor.jpg) | ![Crossing gate](images/crossing-gate.jpg) |
-| **Radar node** — ultrasonic proximity sensor on a servo mount with an LCD status display | **Crossing gate** — servo-operated gate arm with track sensors |
-| ![SwitchTrack node](images/switchtrack-servo-lcd.jpg) | |
-| **SwitchTrack node** — servo actuator for the track switch with an LCD showing switch and Modbus status | |
+| ![Testbed #1 — LEGO "Bricks in a Loop"](images/testbed1-lego-overview.jpg) | ![Allen-Bradley MicroLogix 1100](images/micrologix-1100.jpg) |
+| **Testbed #1** — custom LEGO "Bricks in a Loop" layout with the ESP32 field devices | **Allen-Bradley MicroLogix 1100** — the industrial PLC model used in the testbed (reference photo, not our unit; see credit below) |
+| ![Radar node](images/radar-ultrasonic-sensor.jpg) | ![SwitchTrack node](images/switchtrack-servo-lcd.jpg) |
+| **Radar node** — ultrasonic proximity sensor on a servo mount with an LCD status display | **SwitchTrack node** — servo actuator for the track switch with an LCD showing switch and Modbus status |
+| ![Crossing gate](images/crossing-gate.jpg) | |
+| **Crossing gate** — servo-operated gate arm with track sensors | |
 
 Handwritten notes and lab addresses visible in the original photos were blurred or removed before publishing.
+
+**Photo credit:** the MicroLogix 1100 picture is ["MicroLogix 1100 PLC"](https://www.flickr.com/photos/lungstruck/41252756452) by [lungstruck](https://www.flickr.com/photos/lungstruck), licensed under [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). It is shown unmodified apart from resizing, and is not covered by this repository's MIT license.
 
 ---
 
